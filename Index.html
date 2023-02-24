@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth; scroll-padding: 20px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+<header>
+        <h1 class="logo">WATCH</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Trending">Trending</a></li>
+            <li><a href="#Bookings">Bookings</a></li>
+            <li><a href="#My-Genre">My Genre</a></li>
+            <li><a href="#Order">Order</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+<!-- HOME PAGE CODE STARTS HERE -->
+    <main id="Home" style="width: 100%;">
+        <div class="Home-Movie-image-Parent">
+            <div id="img-1" class="Home-Movie-image">
+                <div style="margin: 0 auto;text-align: center;">
+                    <span>Watch Creed</span>
+                </div>
+                <button id="home-btn-1" class="Play-Btn">
+                    <img width="60%" height="60%" src="Svgs/Vector 260.svg" alt="">
+                </button>
+                <button id="home-btn-2" class="Play-Btn">
+                    HD
+                </button>
+                <button id="home-btn-3" class="Play-Btn">
+                    <img width="50%" height="50%" src="Svgs/imdb-icon.svg" alt="">
+                    <span>9.1/10</span>
+                </button>
+            </div>
+            <div id="img-2" class="Home-Movie-image">
+                <div style="margin: 0 auto;text-align: center;">Watch Bad Boys</div>
+                <button id="home-btn-1" class="Play-Btn">
+                    <img width="60%" height="60%" src="Svgs/Vector 260.svg" alt="">
+                </button>
+                <button id="home-btn-2" class="Play-Btn">
+                    HD
+                </button>
+                <button id="home-btn-3" class="Play-Btn">
+                    <img width="50%" height="50%" src="Svgs/imdb-icon.svg" alt="">
+                    <span>9.1/10</span>
+                </button>
+            </div>
+            
+        </div>
+        <div class="Home-Small-Images-Parent">
+            <div id="Small-img-1" class="Home-Small-Images"><button>+</button></div>
+            <div id="Small-img-2" class="Home-Small-Images"><button>+</button></div>
+            <div id="Small-img-3" class="Home-Small-Images"><button>+</button></div>
+            <div id="Small-img-4" class="Home-Small-Images"><button>+</button></div>
+        </div>
+    </main>
+<!-- HOME PAGE CODE ENDS HERE -->
+
+<!-- TRENDING PAGE CODE STARTS HERE -->
+    <section id="Trending">
+        <div class="Trending">
+            <span class="Trending">Trending</span>
+        </div>
+        <div class="Trending-Parent">
+            <div style="width: 800px; height: 400px;">
+                <img width="100%" height="100%" src="Svgs/DrawKit Vector Illustration Project Manager (10) 1.svg" alt="">
+            </div>
+            <div class="Rating-Parent">
+                <div>
+                    <div class="Rating-List">
+                        <div><span>Ant-Man and the Wasp <br>$63,500,000</span></div>
+                        <div class="rating"> 
+                            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="Rating-List">
+                        <div>Magic Mikes Last Dance<br>$1,660,000</div>
+                        <div class="rating"> 
+                            <input type="radio" id="star51" name="rating1" value="51" /><label for="star51"></label>
+                            <input type="radio" id="star41" name="rating1" value="41" /><label for="star41"></label>
+                            <input type="radio" id="star31" name="rating1" value="31" /><label for="star31"></label>
+                            <input type="radio" id="star21" name="rating1" value="21" /><label for="star21"></label>
+                            <input type="radio" id="star11" name="rating1" value="11" /><label for="star11"></label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="Rating-List">
+                        <div>Avatar: The way of Water <br>$1,358,000</div>
+                        <div class="rating"> 
+                            <input type="radio" id="star52" name="rating2" value="52" /><label for="star52"></label>
+                            <input type="radio" id="star42" name="rating2" value="42" /><label for="star42"></label>
+                            <input type="radio" id="star32" name="rating2" value="32" /><label for="star32"></label>
+                            <input type="radio" id="star22" name="rating2" value="22" /><label for="star22"></label>
+                            <input type="radio" id="star12" name="rating2" value="12" /><label for="star12"></label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="Rating-List">
+                        <div>Puss in Boots: Tha Last Wish<br>$1,210,000</div>
+                        <div class="rating"> 
+                            <input type="radio" id="star53" name="rating3" value="53" /><label for="star53"></label>
+                            <input type="radio" id="star43" name="rating3" value="43" /><label for="star43"></label>
+                            <input type="radio" id="star33" name="rating3" value="33" /><label for="star33"></label>
+                            <input type="radio" id="star23" name="rating3" value="23" /><label for="star23"></label>
+                            <input type="radio" id="star13" name="rating3" value="13" /><label for="star13"></label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="Rating-List">
+                        <div>Knock at the Cabin<br>$1,010,000</div>
+                        <div class="rating"> 
+                            <input type="radio" id="star54" name="rating4" value="54" /><label for="star54"></label>
+                            <input type="radio" id="star44" name="rating4" value="44" /><label for="star44"></label>
+                            <input type="radio" id="star34" name="rating4" value="34" /><label for="star34"></label>
+                            <input type="radio" id="star24" name="rating4" value="24" /><label for="star24"></label>
+                            <input type="radio" id="star14" name="rating4" value="14" /><label for="star14"></label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- TRENDING PAGE CODE ENDS HERE -->
+
+<!-- BOOKINGS PAGE CODE STARTS HERE -->
+      
+
+      <section id="Bookings">
+        <span class="Bookings">Bookings</span>
+        <div class="Bookings-parent">
+            <div>
+                <img class="Sofa-Man" src="Svgs/undraw_home_cinema_l7yl(1) 1.svg" alt="">
+            </div>
+            <div class="Cards">
+                <div class="Card-Group-1">
+                    <div style="background: url(Images/a-sliver-of-film-reel-curls-around-a-camera-sprocket.jpg)center no-repeat; background-size: cover; "
+                        class="Card-1">
+                        <div class="Card-1-1">
+                            <h1 class="Movie-Name">Movie Name</h1>
+                        </div>
+                        <div class="Card-1-2">
+                            <h1 class="Starting-Time">12:00PM</h1>
+                            <h1 class="Cinema-Name">Cinema Name</h1>
+                        </div>
+                        <button class="Card-btn">Get Ticket</button>
+                    </div>
+                    <div style="background: url(Images/three-boxes-of-crisp-popcorn-in-candy-striped-packaging.jpg)center no-repeat; background-size: cover; "
+                        class="Card-1">
+                        <div class="Card-1-1">
+                            <h1 class="Movie-Name">Movie Name</h1>
+                        </div>
+                        <div class="Card-1-2">
+                            <h1 class="Starting-Time">12:00PM</h1>
+                            <h1 class="Cinema-Name">Cinema Name</h1>
+                        </div>
+                        <button class="Card-btn">Get Ticket</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="Card-Group-2">
+                    <div style="background: url(Images/three-woman-watch-a-glowing-white-screen-in-a-dark-room.jpg)center no-repeat; background-size: cover; "
+                        class="Card-1">
+                        <div class="Card-1-1">
+                            <h1 class="Movie-Name">Movie Name</h1>
+                        </div>
+                        <div class="Card-1-2">
+                            <h1 class="Starting-Time">12:00PM</h1>
+                            <h1 class="Cinema-Name">Cinema Name</h1>
+                        </div>
+                        <button class="Card-btn">Get Ticket</button>
+                    </div>
+                    <div style="background: url(Images/cinema.jpg)center no-repeat; background-size: cover; " class="Card-1">
+                        <div class="Card-1-1">
+                            <h1 class="Movie-Name">Movie Name</h1>
+                        </div>
+                        <div class="Card-1-2">
+                            <h1 class="Starting-Time">12:00PM</h1>
+                            <h1 class="Cinema-Name">Cinema Name</h1>
+                        </div>
+                        <button class="Card-btn">Get Ticket</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!-- BOOKINGS PAGE CODE ENDS HERE -->
+
+<!-- MY GENRE PAGE CODE STARTS HERE -->
+
+
+        <section id="My-Genre">
+            <div class="My-Genre">
+                <span>My Genre</span>
+            </div>
+            <div>
+            <div class="My-Genre-button-and-Cards">
+                <div class="Genre-Buttons">
+                    <div class="first">
+                        <button class="My-genre-buttons">Comedy</button>
+                        <button class="My-genre-buttons">Adventure</button>
+                    </div>
+                    <div class="second">
+                        <button class="My-genre-buttons">Romantic-Comedy</button>
+                    </div>
+                    <div class="third">
+                        <button class="My-genre-buttons">Drama</button>
+                        <button class="My-genre-buttons">Action</button>
+                        <button class="My-genre-buttons">Horror</button>
+                    </div>
+                    <div class="fourth">
+                        <button class="My-genre-buttons">Action-Comedy</button>
+                        <button class="My-genre-buttons">Sci-Fi</button>
+                    </div>
+                    <div class="fifth">
+                        <button class="My-genre-buttons">Fantasy</button>
+                        <button class="My-genre-buttons">Mystery</button>
+                    </div>
+                </div>
+                <div class="Card-Parent">
+                    
+                    <details class="My-Genre-Card-Comedy">
+                        <summary>Comedy</summary>
+                        <p>
+                        <div class="Genre-Card-Parent">
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" id="im-1" src="Images/friends.jpg" alt="THE OFFICE" title="THE OFFICE">
+                                <h5 class="Genre-Card-Text">Friends</h5>
+    
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" id="im-2" src="Images/familyguy.jpg" alt="">
+                                <h5 class="Genre-Card-Text">Family Guy</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" id="im-1" src="Images/theoffice.jpg" alt="">
+                                <h5 class="Genre-Card-Text">The Office</h5>
+                            </div>
+                        </div>
+                        </p>
+                    </details>
+                    <br>
+                    <details class="My-Genre-Card-Action">
+    
+                        <summary>Action</summary>
+    
+                        <p>
+    
+                        <div class="Genre-Card-Parent">
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/bond2.jpg" height="100%" alt="">
+                                <h5 class="Genre-Card-Text">James Bond</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/diehard.jpg" alt="">
+                                <h5 class="Genre-Card-Text">Die Hard</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/BADBOYS.jpg" alt="">
+                                <h5 class="Genre-Card-Text">Bad Boys</h5>
+                            </div>
+                        </div>
+                        </p>
+                    </details>
+    
+                    <details class="My-Genre-Card-Romantic">
+                        <summary>Romantic</summary>
+                        <p>
+                        <div class="Genre-Card-Parent">
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" src="Images/thevow.jpg" alt="">
+                                <h5 class="Genre-Card-Text">The Vow</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" src="Images/lalaland.jpg" alt="">
+                                <h5 class="Genre-Card-Text">La la land</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Genre-Card" src="Images/forestgump.jpg" alt="">
+                                <h5 class="Genre-Card-Text" style="color: black;">Forest Gump</h5>
+                            </div>
+                        </div>
+                        </p>
+                    </details>
+                    <br>
+                    <details class="My-Genre-Card-Sci-Fi">
+                        <summary>Sci-Fi</summary>
+                        <p>
+                        <div class="Genre-Card-Parent">
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/rickanmorty.jpg" alt="">
+                                <h5 class="Genre-Card-Text">Rick and Morty</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/starwars.jpg" alt="">
+                                <h5 class="Genre-Card-Text">Star Wars</h5>
+                            </div>
+                            <div class="Genre-Cards">
+                                <img class="Image-Inside-Sci-Fi" src="Images/thematrix.jpg" alt="">
+                                <h5 class="Genre-Card-Text">The Matrix</h5>
+                            </div>
+                        </div>
+                        </p>
+                    </details>
+    
+            </div>
+        </div>
+        </section>
+
+        <!-- MY GENRE PAGE CODE ENDS HERE -->
+    
+        <!-- ORDER PAGE CODE STARTS HERE -->
+
+    <section style="margin-top: 80px;" id="Order">
+        <div class="My-Order">
+            <span class="Order">Order</span> <br>
+            <span>Most watched movies and serieses premiering this month</span>
+        </div>
+        <div class="slider-body">
+            <div class="slider">
+                <span style="--i:1;"><img src="Images/spiderman.jpg" alt="" title="Spider-Man"></span>
+                <span style="--i:2;"><img src="Images/kong.jpg" alt="" title="Kong"></span>
+                <span style="--i:3;"><img src="Images/extraction.jpg" alt="" title="Extraction"></span>
+                <span style="--i:4;"><img src="Images/breakingbad.jpg" alt="" title="Breaking Bad"></span>
+                <span style="--i:5;"><img src="Images/theSimpsons.jpg" alt="" title="American Dad"></span>
+                <span style="--i:6;"><img src="Images/creed.jpg" alt="" title="Creed"></span>
+                <span style="--i:7;"><img src="Images/trainingday.jpg" alt="" title="Training Day"></span>
+                <span style="--i:8;"><img src="Images/americangangster.jpg" alt="" title="American Gangster"></span>
+            </div>
+        </div>
+
+        <div class="Order-Form-order">
+            <span>Enter a movie name or season and episode number of a series with its name, and your personal email.
+                <br>You will get the link of the stream.
+            </span>
+            <form class="Order-form" action="#">
+                <input type="text" name="Search-bar" class="Order-Search-bar" title="Movie Name" placeholder="Movie Name">
+                <button class="microphone" title="microphone"><img class="mic" src="Svgs/microphone.svg" alt=""></button>
+            </form>
+            <form class="Order-form" action="">
+                <input type="email" name="Search-bar" class="Order-Search-bar" title="Email" placeholder="Your Email">
+                <button class="microphone" title="microphone"><img class="mic" src="Svgs/microphone.svg" alt=""></button>
+            </form>
+            <div>
+                <button class="Order-btn">Order</button>
+            </div>
+        </div>
+   </section>
+   <!-- ORDER PAGE CODE ENDS HERE -->
+    <footer>
+        <img style="width: 100%;" src="Svgs/recta 1.svg" alt="">
+    </footer>
+    
+</body>
+
+</html>
